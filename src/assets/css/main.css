@@ -1,0 +1,19 @@
+.main-body-flex, .main {
+    display: flex;
+}
+
+.main-body-flex main {
+    height: 93vh;
+    width: 85vw;
+    overflow-y: scroll;
+}
+
+main {
+    background-color: #1F193D;
+}
+
+.main {
+    padding: 80px 5vh; 
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
